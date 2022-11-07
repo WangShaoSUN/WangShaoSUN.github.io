@@ -1,0 +1,225 @@
+@charset "utf-8";
+/* CSS Document */
+/*body,td,th {
+    font-family: Georgia, "Palatino Linotype", "Book Antiqua", "URW Palladio L", Baskerville, Meiryo, "Hiragino Mincho Pro", "MS PMincho", serif;
+}*/
+body,td,th {
+	font-family: 'Times New Roman','Playfair Display', Georgia, serif;
+}
+
+img {
+	width: 20%;
+	float: left;
+}
+
+li.nav-item > a.nav-link.active{
+	background-color: #4e555b;
+}
+
+li.nav-item >a{
+	color: #4e555b;
+}
+
+.home-right hr {
+	width: 70%;
+}
+
+#site-name {
+	font-family: "Times New Roman","Playfair Display", Georgia,  serif;
+	float: left;
+	font-size: 34px;
+	font-weight: 800;
+	padding: 10px 0px;
+	color: #ffff00;
+	width: 70%;
+}
+
+#site-logo{
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 20%;
+}
+
+.nav-blue {
+	background: #dbf2f7;
+	margin:2px;
+}
+.top-img {
+	background-image: url('../img/topology2.jpg');
+	background-repeat: repeat-x, repeat-y;
+	height: 120px;
+	margin: 0;
+	display: flex;
+	flex-direction: row;
+}
+
+.out-border {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.rteindent1 {
+	margin-left: 20px;
+	margin-right: 10px;
+}
+
+.rtejustify {
+text-align: justify;
+}
+
+.home-left {
+	float: left;
+	width: 70%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.home-right {
+	float: left;
+	width: 30%;
+	background: #4e555b;
+	color: #dbf2f7;
+	height: 100%;
+	right: 0;
+	position: absolute;
+	overflow: auto;
+	border-width: 0 2px;
+	border-color: white;
+	border-style: solid;
+	text-align: center;
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+}
+
+.home-news {
+	clear: left;
+	margin-top: 2px;
+}
+
+.research-body {
+	font-family:"Times New Roman","Playfair Display", Georgia,  serif;
+	line-height: 21px;
+	padding-left: 10px;
+	padding-right: 20px;
+	margin-top: 10px;
+}
+
+.research-text {
+	float: left;
+	width: 80%;
+	padding:0 15px 0 15px;
+}
+
+.research-name {
+	font-size: 16px;
+}
+
+.research-content {
+	font-size: 14px;
+	color: rgb(59, 59, 59);
+	font-family: "Times New Roman","Playfair Display", Georgia,  serif;
+}
+.research-caption {
+	font-family: "Times New Roman","Playfair Display", Georgia,  serif;
+}
+.research-each {
+	margin-bottom: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+	background-color: white;
+}
+.people-teacher {
+	margin-bottom: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+	background-color: white;
+}
+.people-each {
+    width: 20%;
+}
+
+.people-each img{
+	width: 90%;
+	margin: 0 5%;
+}
+
+.people-each .text{
+	width: 100%;
+	text-align: center;
+	word-wrap:break-word;
+}
+
+.people-row {
+	display: flex;
+	flex-direction: row;
+	margin-top:20px ;
+}
+
+.underline{
+	display: block;
+    width: 80px;
+    margin-top: 4px;
+    margin-right: auto;
+	margin-left: auto;
+	height: 4px;
+	background-color: #4e555b;
+}
+
+.publication-content {
+	margin: 10px 15px auto 15px;
+}
+
+.teaching-text {
+	margin-left: 10px;
+	margin-right: 5px
+}
+
+.white5border {
+	padding-top: 5px;
+	padding-bottom: 10px
+}
+
+.content-dark {
+	background-color: #4e555b;
+	color: white;
+}
+
+.stuff {
+	width: 650px;
+    float: none;
+}
+
+.people-group {
+	font-size: 20px;
+	font-style: italic;
+	text-align: center;
+}
+
+.back-grey {
+	background-color: #f0efef;
+}
+
+.research1-container{
+	margin: 0 10%;
+}
+.research1-title{
+	text-align: center;
+	font-size: 40px;
+}
+.research1-alert{
+	color: red;
+}
+
+
+.group-caption{
+	font-size: 22px;
+	font-weight: 600;
+	width: 100%;
+	margin: 20px 0 20px 0;
+}
+
+.group-caption .underline{
+	width: 100%;
+}
